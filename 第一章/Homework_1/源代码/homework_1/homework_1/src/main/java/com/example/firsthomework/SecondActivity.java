@@ -8,20 +8,20 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class SecondActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d("MainActivity","Button1_onCreate");
-        setContentView(R.layout.activity_main);
-        Button button1 = (Button) findViewById(R.id.world_0);
+        Log.d("SecondActivity","Button2_onCreate");
+        setContentView(R.layout.second_layout);
+        Button button1 = (Button) findViewById(R.id.world_1);
         Button button2 = (Button) findViewById(R.id.world_2);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                Intent intent = new Intent(SecondActivity.this, MainActivity.class);
                 startActivity(intent);
             }
         });
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+                Intent intent = new Intent(SecondActivity.this, SecondActivity.class);
                 startActivity(intent);
             }
         });
@@ -38,42 +38,42 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart(){
         super.onStart();
-        Log.d("MainActivity", "Button1_onStart");
+        Log.d("SecondActivity", "Button2_onStart");
     }
 
     @Override
     protected void onResume(){
         super.onResume();
-        Log.d("MainActivity","Button1_onResume");
+        Log.d("SecondActivity","Button2_onResume");
     }
 
     @Override
     protected void onPostResume(){
         super.onPostResume();
-        Log.d("MainActivity","Button1_onPostResume");
+        Log.d("SecondActivity","Button2_onPostResume");
     }
 
     @Override
     protected void onPause(){
         super.onPause();
-        Log.d("MainActivity", "Button1_onPause");
+        Log.d("SecondActivity", "Button2_onPause");
     }
 
     @Override
     protected void onStop(){
         super.onStop();
-        Log.d("MainActivity","Button1_onStop");
+        Log.d("SecondActivity","Button2_onStop");
     }
 
     @Override
     protected void onDestroy(){
         super.onDestroy();
-        Log.d("MainActivity", "Button1_onDestroy");
+        Log.d("SecondActivity", "Button2_onDestroy");
     }
 
     @Override
     protected void onRestart(){
         super.onRestart();
-        Log.d("MainActivity","Button1_onRestart");
+        Log.d("SecondActivity","Button2_onRestart");
     }
 }

@@ -15,7 +15,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Log.d("SecondActivity","Button2_onCreate");
         setContentView(R.layout.second_layout);
-        Button button1 = (Button) findViewById(R.id.world_1);
+        Button button1 = (Button) findViewById(R.id.world_0);
         Button button2 = (Button) findViewById(R.id.world_2);
 
         button1.setOnClickListener(new View.OnClickListener() {
