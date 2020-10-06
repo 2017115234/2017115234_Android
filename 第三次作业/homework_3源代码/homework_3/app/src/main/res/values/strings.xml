@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ThirdHomework</string>
+    <string name="text">Record your daily</string>
+    <string name="edit">daily time</string>
+    <string name="edit_bt">Write Down</string>
+    <string name="image_bt">Switch Picture</string>
+</resources>
