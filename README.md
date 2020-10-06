@@ -16,3 +16,10 @@
 实验报告：https://github.com/2017115234/2017115234_Android/blob/master/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A2.md
 
 
+第三次作业
+
+1.第三章UI控件的简单使用
+
+项目位置：https://github.com/2017115234/2017115234_Android/tree/master/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A
+
+实验报告：https://github.com/2017115234/2017115234_Android/blob/master/%E7%AC%AC%E4%B8%89%E6%AC%A1%E4%BD%9C%E4%B8%9A/%E4%BD%9C%E4%B8%9A3.md
