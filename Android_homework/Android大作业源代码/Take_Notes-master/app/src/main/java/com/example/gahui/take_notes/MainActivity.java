@@ -105,10 +105,17 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.finish();
                 break;
             case R.id.menu_we:
-                Intent intent2 = new Intent(MainActivity.this, About_author.class);
+                Intent intent1 = new Intent(MainActivity.this, About_author.class);
+                startActivity(intent1);
+                finish();
+            case R.id.menu_update:
+                Intent intent2 = new Intent(MainActivity.this, About_update.class);
                 startActivity(intent2);
                 finish();
-
+            case R.id.menu_help:
+                Intent intent3 = new Intent(MainActivity.this, Help.class);
+                startActivity(intent3);
+                finish();
                 break;
             default:
                 break;

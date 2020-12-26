@@ -11,7 +11,7 @@ import java.util.Timer;
 import  android.content.Intent;
 import java.util.TimerTask;
 
-public class About_author extends AppCompatActivity implements View.OnClickListener {
+public class About_update extends AppCompatActivity implements View.OnClickListener {
 
     private int recLen = 10;//跳过倒计时提示10秒
     private TextView tv;
@@ -25,7 +25,7 @@ public class About_author extends AppCompatActivity implements View.OnClickListe
         int flag= WindowManager.LayoutParams.FLAG_FULLSCREEN;
         //设置当前窗体为全屏显示
         getWindow().setFlags(flag, flag);
-        setContentView(R.layout.activity_about_author);
+        setContentView(R.layout.activity_about_update);
         initView();
         timer.schedule(task, 1000, 1000);//等待时间一秒，停顿时间一秒
         /**
@@ -36,7 +36,7 @@ public class About_author extends AppCompatActivity implements View.OnClickListe
             @Override
             public void run() {
                 //从闪屏界面跳转到首界面
-                Intent intent = new Intent(About_author.this, About_update.class);
+                Intent intent = new Intent(About_update.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -70,7 +70,7 @@ public class About_author extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.tv:
                 //从闪屏界面跳转到首界面
-                Intent intent = new Intent(About_author.this, About_update.class);
+                Intent intent = new Intent(About_update.this, MainActivity.class);
                 startActivity(intent);
                 finish();
                 if (runnable != null) {

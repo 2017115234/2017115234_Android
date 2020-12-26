@@ -9,7 +9,9 @@
         android:title="@string/menu_exit"
         />
     <item
-        android:id="@+id/menu_we"
-        android:title="关于制作者"
+        android:id="@+id/menu_help"
+        android:title="@string/menu_help"
         />
+
+    
 </menu>
