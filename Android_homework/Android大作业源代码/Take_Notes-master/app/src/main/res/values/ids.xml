@@ -2,7 +2,4 @@
 <resources>
     <item name="tv" type="id" />
     <item name="menu_we" type="id" />
-    <item name="menu_update" type="id" />
-    <item name="menu_help" type="id" />
-
 </resources>

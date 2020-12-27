@@ -13,7 +13,7 @@ import java.util.TimerTask;
 
 public class About_author extends AppCompatActivity implements View.OnClickListener {
 
-    private int recLen = 10;//跳过倒计时提示10秒
+    private int recLen = 10;//跳过倒计时提示2秒
     private TextView tv;
     Timer timer = new Timer();
     private Handler handler;
@@ -36,7 +36,7 @@ public class About_author extends AppCompatActivity implements View.OnClickListe
             @Override
             public void run() {
                 //从闪屏界面跳转到首界面
-                Intent intent = new Intent(About_author.this, About_update.class);
+                Intent intent = new Intent(About_author.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -53,7 +53,7 @@ public class About_author extends AppCompatActivity implements View.OnClickListe
                 @Override
                 public void run() {
                     recLen--;
-                    tv.setText("跳过 " + recLen);
+                    tv.setText("返回 " + recLen);
                     if (recLen < 0) {
                         timer.cancel();
                         tv.setVisibility(View.GONE);//倒计时到0隐藏字体
@@ -70,7 +70,7 @@ public class About_author extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             case R.id.tv:
                 //从闪屏界面跳转到首界面
-                Intent intent = new Intent(About_author.this, About_update.class);
+                Intent intent = new Intent(About_author.this, MainActivity.class);
                 startActivity(intent);
                 finish();
                 if (runnable != null) {

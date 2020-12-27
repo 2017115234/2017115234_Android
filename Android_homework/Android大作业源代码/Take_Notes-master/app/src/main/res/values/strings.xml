@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">猫咪随记</string>
-    <string name="new_title">type:</string>
+    <string name="app_name">猫咪日记</string>
+    <string name="new_title">心情:</string>
     <string name="new_settitle">请输入标题~</string>
     <string name="new_content">随记：</string>
     <string name="new_inputcontent">请输入内容~</string>
     <string name="menu_newnote">新建</string>
     <string name="menu_exit">退出</string>
-    <string name="menu_help">帮助/作者/更新</string>
+    <string name="menu_we">关于作者</string>
     <string name="menu_alarm">设置提醒时间</string>
     <string name="menu_share">分享</string>
 </resources>
