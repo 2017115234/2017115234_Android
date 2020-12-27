@@ -51,10 +51,15 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View view) {
         switch (view.getId()) {
             // 跳转到注册界面
+            case R.id.tv_loginactivity_register:
+                Intent intent3 = new Intent(this, RegisterActivity.class);
+                startActivity(intent3);
+                finish();//销毁此Activity
+                break;
             case R.id.bt_loginactivity_login:
                 String name = mEtLoginactivityUsername.getText().toString().trim();
                 String password = mEtLoginactivityPassword.getText().toString().trim();
-                Intent intent2 = new Intent(this, MainActivity.class);
+                Intent intent1 = new Intent(this, MainActivity.class);
                 if (!TextUtils.isEmpty(name) && !TextUtils.isEmpty(password)) {
                     ArrayList<User> data = mDBOpenHelper.getAllData();
                     boolean match = false;

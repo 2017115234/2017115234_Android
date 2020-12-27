@@ -5,11 +5,13 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/tubiao"
-        android:label="猫咪日记"
+        android:label="猫咪随记"
         android:roundIcon="@mipmap/tubiao"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".About_author"></activity>
+        <activity android:name=".Help"></activity>
+        <activity android:name=".About_update" />
+        <activity android:name=".About_author" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity

@@ -7,6 +7,7 @@
     android:background="#eeeeee"
     tools:context=".LoginActivity">
 
+
   <RelativeLayout
       android:id="@+id/rl_loginactivity_top"
       android:layout_width="match_parent"
@@ -38,7 +39,7 @@
 
     <TextView
         android:id="@+id/tv_loginactivity_register"
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
@@ -50,7 +51,6 @@
         android:textSize="20dp"
         tools:ignore="OnClick" />
   </RelativeLayout>
-
 
   <LinearLayout
       android:id="@+id/ll_loginactivity_two"
