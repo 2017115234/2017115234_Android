@@ -1,10 +1,21 @@
+期末大作业
+
+1.猫咪随记
+
+项目位置：https://github.com/2017115234/2017115234_Android/tree/master/Android_homework
+
+实验报告：https://github.com/2017115234/2017115234_Android/blob/master/Android_homework/%E8%AF%BE%E7%A8%8B%E5%A4%A7%E4%BD%9C%E4%B8%9A.md
+
+
+
+
+
+
 第一次作业
 
 1、工具链的安装和Helloworld程序
 
 项目位置：https://github.com/2017115234/2017115234_Android/tree/master/homework_1
-
-
 
 
 第二次作业
@@ -100,3 +111,4 @@
 项目位置：xxxxx
 
 实验报告：xxxxxxxx
+
